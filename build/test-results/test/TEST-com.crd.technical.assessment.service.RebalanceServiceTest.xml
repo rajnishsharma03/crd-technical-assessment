@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.crd.technical.assessment.service.RebalanceServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-04-12T23:11:03.567Z" hostname="Rajnishs-MacBook-Air.local" time="0.077">
+  <properties/>
+  <testcase name="testAlreadyBalancedScenario()" classname="com.crd.technical.assessment.service.RebalanceServiceTest" time="0.032"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

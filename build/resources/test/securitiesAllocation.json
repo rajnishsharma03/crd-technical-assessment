@@ -1,0 +1,143 @@
+{
+  "happyPathScenario": {
+    "totalAsset": 100000,
+    "securities": [
+      {
+        "name": "IBM",
+        "targetPercentage": 20,
+        "currentPercentage": 10,
+        "unitPrice": 150
+      },
+      {
+        "name": "MSFT",
+        "targetPercentage": 20,
+        "currentPercentage": 20,
+        "unitPrice": 90
+      },
+      {
+        "name": "ORCL",
+        "targetPercentage": 20,
+        "currentPercentage": 30,
+        "unitPrice": 220
+      },
+      {
+        "name": "AAPL",
+        "targetPercentage": 20,
+        "currentPercentage": 20,
+        "unitPrice": 450
+      },
+      {
+        "name": "HD",
+        "targetPercentage": 20,
+        "currentPercentage": 20,
+        "unitPrice": 70
+      }
+    ]
+  },
+  "alreadyBalancedScenario": {
+    "totalAsset": 100000,
+    "securities": [
+      {
+        "name": "IBM",
+        "targetPercentage": 20,
+        "currentPercentage": 20,
+        "unitPrice": 150
+      },
+      {
+        "name": "MSFT",
+        "targetPercentage": 20,
+        "currentPercentage": 20,
+        "unitPrice": 90
+      },
+      {
+        "name": "ORCL",
+        "targetPercentage": 20,
+        "currentPercentage": 20,
+        "unitPrice": 220
+      },
+      {
+        "name": "AAPL",
+        "targetPercentage": 20,
+        "currentPercentage": 20,
+        "unitPrice": 450
+      },
+      {
+        "name": "HD",
+        "targetPercentage": 20,
+        "currentPercentage": 20,
+        "unitPrice": 70
+      }
+    ]
+  },
+
+  "onlyBuyScenario": {
+    "totalAsset": 100000,
+    "securities": [
+      {
+        "name": "IBM",
+        "targetPercentage": 20,
+        "currentPercentage": 10,
+        "unitPrice": 150
+      },
+      {
+        "name": "MSFT",
+        "targetPercentage": 20,
+        "currentPercentage": 5,
+        "unitPrice": 90
+      },
+      {
+        "name": "ORCL",
+        "targetPercentage": 20,
+        "currentPercentage": 15,
+        "unitPrice": 220
+      },
+      {
+        "name": "AAPL",
+        "targetPercentage": 20,
+        "currentPercentage": 8,
+        "unitPrice": 450
+      },
+      {
+        "name": "HD",
+        "targetPercentage": 20,
+        "currentPercentage": 12,
+        "unitPrice": 70
+      }
+    ]
+  },
+  "onlySellScenario": {
+    "totalAsset": 100000,
+    "securities": [
+      {
+        "name": "IBM",
+        "targetPercentage": 20,
+        "currentPercentage": 25,
+        "unitPrice": 150
+      },
+      {
+        "name": "MSFT",
+        "targetPercentage": 20,
+        "currentPercentage": 30,
+        "unitPrice": 90
+      },
+      {
+        "name": "ORCL",
+        "targetPercentage": 20,
+        "currentPercentage": 35,
+        "unitPrice": 220
+      },
+      {
+        "name": "AAPL",
+        "targetPercentage": 20,
+        "currentPercentage": 28,
+        "unitPrice": 450
+      },
+      {
+        "name": "HD",
+        "targetPercentage": 20,
+        "currentPercentage": 32,
+        "unitPrice": 70
+      }
+    ]
+  }
+}
