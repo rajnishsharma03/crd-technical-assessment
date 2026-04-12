@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.crd.technical.assessment.service.RebalanceServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-04-12T23:11:03.567Z" hostname="Rajnishs-MacBook-Air.local" time="0.077">
+<testsuite name="com.crd.technical.assessment.service.RebalanceServiceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-04-12T23:36:58.882Z" hostname="Rajnishs-MacBook-Air.local" time="0.081">
   <properties/>
-  <testcase name="testAlreadyBalancedScenario()" classname="com.crd.technical.assessment.service.RebalanceServiceTest" time="0.032"/>
+  <testcase name="testAlreadyBalancedScenario()" classname="com.crd.technical.assessment.service.RebalanceServiceTest" time="0.033"/>
+  <testcase name="testRebalanceHappyPathScenario()" classname="com.crd.technical.assessment.service.RebalanceServiceTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
