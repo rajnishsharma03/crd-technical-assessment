@@ -58,3 +58,6 @@ if project is already build and dependencies has already obtained:
 ```bash
 ./gradlew test
 ```
+
+## Added Jacoco Test coverage report 
+Project makes use of Jacoco plugin for Test coverage
