@@ -17,7 +17,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class RebalanceServiceTest {
     private static final ObjectMapper mapper = new ObjectMapper();
-    JsonNode jsonNode;
+    private JsonNode jsonNode;
 
     @BeforeEach
     void setUp() throws URISyntaxException, IOException {
