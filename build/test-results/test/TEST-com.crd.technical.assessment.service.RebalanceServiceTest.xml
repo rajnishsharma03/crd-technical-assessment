@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.crd.technical.assessment.service.RebalanceServiceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-04-12T23:36:58.882Z" hostname="Rajnishs-MacBook-Air.local" time="0.081">
+<testsuite name="com.crd.technical.assessment.service.RebalanceServiceTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-04-13T15:08:05.929Z" hostname="Rajnishs-MacBook-Air.local" time="0.079">
   <properties/>
-  <testcase name="testAlreadyBalancedScenario()" classname="com.crd.technical.assessment.service.RebalanceServiceTest" time="0.033"/>
+  <testcase name="testAlreadyBalancedScenario()" classname="com.crd.technical.assessment.service.RebalanceServiceTest" time="0.028"/>
+  <testcase name="testInvalidPercentageScenario()" classname="com.crd.technical.assessment.service.RebalanceServiceTest" time="0.002"/>
+  <testcase name="testEmptyPortfolioScenario()" classname="com.crd.technical.assessment.service.RebalanceServiceTest" time="0.001"/>
   <testcase name="testRebalanceHappyPathScenario()" classname="com.crd.technical.assessment.service.RebalanceServiceTest" time="0.001"/>
+  <testcase name="testOnlySellScenario()" classname="com.crd.technical.assessment.service.RebalanceServiceTest" time="0.001"/>
+  <testcase name="testMissingPriceScenario()" classname="com.crd.technical.assessment.service.RebalanceServiceTest" time="0.002"/>
+  <testcase name="testZeroAssetScenario()" classname="com.crd.technical.assessment.service.RebalanceServiceTest" time="0.001"/>
+  <testcase name="testOnlyBuyScenario()" classname="com.crd.technical.assessment.service.RebalanceServiceTest" time="0.001"/>
+  <testcase name="testNegativeValueScenario()" classname="com.crd.technical.assessment.service.RebalanceServiceTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

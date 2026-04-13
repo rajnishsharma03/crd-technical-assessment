@@ -73,71 +73,59 @@
   "onlyBuyScenario": {
     "totalAsset": 100000,
     "securities": [
-      {
-        "name": "IBM",
-        "targetPercentage": 20,
-        "currentPercentage": 10,
-        "unitPrice": 150
-      },
-      {
-        "name": "MSFT",
-        "targetPercentage": 20,
-        "currentPercentage": 5,
-        "unitPrice": 90
-      },
-      {
-        "name": "ORCL",
-        "targetPercentage": 20,
-        "currentPercentage": 15,
-        "unitPrice": 220
-      },
-      {
-        "name": "AAPL",
-        "targetPercentage": 20,
-        "currentPercentage": 8,
-        "unitPrice": 450
-      },
-      {
-        "name": "HD",
-        "targetPercentage": 20,
-        "currentPercentage": 12,
-        "unitPrice": 70
-      }
+      {"name": "IBM", "targetPercentage": 25, "currentPercentage": 10, "unitPrice": 150},
+      {"name": "MSFT", "targetPercentage": 25, "currentPercentage": 15, "unitPrice": 90},
+      {"name": "ORCL", "targetPercentage": 25, "currentPercentage": 20, "unitPrice": 220},
+      {"name": "AAPL", "targetPercentage": 25, "currentPercentage": 5, "unitPrice": 450}
     ]
   },
+
   "onlySellScenario": {
     "totalAsset": 100000,
     "securities": [
-      {
-        "name": "IBM",
-        "targetPercentage": 20,
-        "currentPercentage": 25,
-        "unitPrice": 150
-      },
-      {
-        "name": "MSFT",
-        "targetPercentage": 20,
-        "currentPercentage": 30,
-        "unitPrice": 90
-      },
-      {
-        "name": "ORCL",
-        "targetPercentage": 20,
-        "currentPercentage": 35,
-        "unitPrice": 220
-      },
-      {
-        "name": "AAPL",
-        "targetPercentage": 20,
-        "currentPercentage": 28,
-        "unitPrice": 450
-      },
-      {
-        "name": "HD",
-        "targetPercentage": 20,
-        "currentPercentage": 32,
-        "unitPrice": 70
-      }
+      {"name": "IBM", "targetPercentage": 40, "currentPercentage": 60, "unitPrice": 150},
+      {"name": "MSFT", "targetPercentage": 30, "currentPercentage": 50, "unitPrice": 90},
+      {"name": "ORCL", "targetPercentage": 30, "currentPercentage": 40, "unitPrice": 220}
     ]
+  },
+
+  "invalidScenario": {
+    "totalAsset": 100000,
+    "securities": [
+      {"name": "IBM", "targetPercentage": 30, "currentPercentage": 20, "unitPrice": 150},
+      {"name": "MSFT", "targetPercentage": 30, "currentPercentage": 20, "unitPrice": 90}
+    ]
+  },
+
+  "invalidPercentageScenario": {
+    "totalAsset": 100000,
+    "securities": [
+      {"name": "IBM", "targetPercentage": 30, "currentPercentage": 20, "unitPrice": 150},
+      {"name": "MSFT", "targetPercentage": 30, "currentPercentage": 20, "unitPrice": 90}
+    ]
+  },
+
+  "missingPriceScenario": {
+    "totalAsset": 100000,
+    "securities": [
+      {"name": "IBM", "targetPercentage": 20, "currentPercentage": 10, "unitPrice": 0}
+    ]
+  },
+  "negativeValueScenario": {
+    "totalAsset": 100000,
+    "securities": [
+      {"name": "IBM", "targetPercentage": -20, "currentPercentage": 10, "unitPrice": 150}
+    ]
+  },
+
+  "zeroAssetScenario": {
+    "totalAsset": 0,
+    "securities": [
+      {"name": "IBM", "targetPercentage": 20, "currentPercentage": 10, "unitPrice": 150}
+    ]
+  },
+  "emptyPortfolioScenario": {
+    "totalAsset": 100000,
+    "securities": []
   }
 }

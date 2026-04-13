@@ -8,6 +8,32 @@ import java.util.Map;
 
 public class RebalanceService {
     public Map<String, Security> rebalance(double totalAsset, List<Security> securities) {
+        if (totalAsset <= 0) {
+            throw new IllegalArgumentException("Total asset must be greater than zero");
+        }
+
+        if (securities == null || securities.isEmpty()) {
+            throw new IllegalArgumentException("Portfolio cannot be empty");
+        }
+
+        double totalTarget = 0;
+
+        for (Security sec : securities) {
+            if (sec.getUnitPrice() <= 0) {
+                throw new IllegalArgumentException("Price must be greater than zero");
+            }
+
+            if (sec.getTargetPercentage() < 0 || sec.getCurrentPercentage() < 0) {
+                throw new IllegalArgumentException("Percentage cannot be negative");
+            }
+
+            totalTarget += sec.getTargetPercentage();
+        }
+
+        if (Math.round(totalTarget) != 100) {
+            throw new IllegalArgumentException("Total target percentage must be 100");
+        }
+
         Map<String, Security> result = new HashMap<>();
 
         for (Security sec : securities) {
