@@ -121,23 +121,6 @@
       }
     ]
   },
-  "invalidScenario": {
-    "totalAsset": 100000,
-    "securities": [
-      {
-        "name": "IBM",
-        "targetPercentage": 30,
-        "currentPercentage": 20,
-        "unitPrice": 150
-      },
-      {
-        "name": "MSFT",
-        "targetPercentage": 30,
-        "currentPercentage": 20,
-        "unitPrice": 90
-      }
-    ]
-  },
   "invalidPercentageScenario": {
     "totalAsset": 100000,
     "securities": [
